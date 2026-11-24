@@ -1,1 +1,460 @@
 
+
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color" content="#123D35">
+  <meta name="description" content="SUKOON - آپ کی اسلامی زندگی کا خوبصورت ساتھی">
+
+  <title>سکون | SUKOON</title>
+
+  <!-- Main Design CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<div class="app-container" id="home">
+
+  <!-- HEADER -->
+  <header class="app-header">
+
+    <div class="header-top">
+
+      <div>
+        <div class="brand-name">سُکون <span class="latin">SUKOON</span></div>
+        <div class="header-subtitle">Your Islamic Life Companion</div>
+      </div>
+
+      <div class="header-actions">
+        <button class="icon-button" aria-label="Notifications">
+          <i class="fa-regular fa-bell"></i>
+        </button>
+        <button class="icon-button" aria-label="Profile">
+          <i class="fa-regular fa-user"></i>
+        </button>
+      </div>
+
+    </div>
+
+    <div class="greeting">
+      <p>السلام علیکم ورحمۃ اللہ وبرکاتہ</p>
+      <h1>خوش آمدید!</h1>
+      <p>آئیے آج کا دن بہتر بناتے ہیں۔</p>
+    </div>
+
+  </header>
+
+
+  <!-- DATE CARD -->
+  <section class="date-card">
+
+    <div class="date-info">
+      <span>آج کی تاریخ</span>
+      <h2 id="hijri-date">اسلامی تاریخ</h2>
+      <p id="gregorian-date">عیسوی تاریخ</p>
+    </div>
+
+    <div class="date-icon">
+      <i class="fa-regular fa-calendar-days"></i>
+    </div>
+
+  </section>
+
+
+  <!-- PRAYER SECTION -->
+  <section class="section" id="prayer">
+
+    <div class="section-heading">
+      <h2>نماز کے اوقات</h2>
+      <a href="#prayer" class="text-primary">تمام دیکھیں</a>
+    </div>
+
+    <div class="prayer-card">
+
+      <p>اگلی نماز</p>
+      <h2>نماز کے اوقات جلد دستیاب ہوں گے</h2>
+
+      <p class="prayer-location">
+        <i class="fa-solid fa-location-dot"></i>
+        مقام منتخب کرنا باقی ہے
+      </p>
+
+      <div class="prayer-grid">
+
+        <div class="prayer-item">
+          <h3>فجر</h3>
+          <span>--:--</span>
+        </div>
+
+        <div class="prayer-item">
+          <h3>ظہر</h3>
+          <span>--:--</span>
+        </div>
+
+        <div class="prayer-item">
+          <h3>عصر</h3>
+          <span>--:--</span>
+        </div>
+
+        <div class="prayer-item">
+          <h3>مغرب</h3>
+          <span>--:--</span>
+        </div>
+
+        <div class="prayer-item">
+          <h3>عشاء</h3>
+          <span>--:--</span>
+        </div>
+
+        <div class="prayer-item">
+          <h3>قبلہ</h3>
+          <span><i class="fa-solid fa-compass"></i></span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- QUICK ACCESS -->
+  <section class="section" id="library">
+
+    <div class="section-heading">
+      <h2>اسلامی لائبریری</h2>
+      <span class="text-muted">علم و رہنمائی</span>
+    </div>
+
+    <div class="feature-grid">
+
+      <a href="#quran" class="feature-card">
+        <div class="feature-icon">
+          <i class="fa-solid fa-book-quran"></i>
+        </div>
+        <h3>قرآن مجید</h3>
+        <p>تلاوت اور ترجمہ</p>
+      </a>
+
+      <a href="#hadith" class="feature-card">
+        <div class="feature-icon">
+          <i class="fa-solid fa-book-open"></i>
+        </div>
+        <h3>احادیث</h3>
+        <p>مستند احادیث</p>
+      </a>
+
+      <a href="#duas" class="feature-card">
+        <div class="feature-icon">
+          <i class="fa-solid fa-hands-praying"></i>
+        </div>
+        <h3>دعائیں</h3>
+        <p>مسنون دعائیں</p>
+      </a>
+
+      <a href="#azkar" class="feature-card">
+        <div class="feature-icon">
+          <i class="fa-solid fa-circle-dot"></i>
+        </div>
+        <h3>اذکار و تسبیح</h3>
+        <p>روزانہ کے اذکار</p>
+      </a>
+
+      <a href="#knowledge" class="feature-card">
+        <div class="feature-icon">
+          <i class="fa-solid fa-lightbulb"></i>
+        </div>
+        <h3>اسلامی معلومات</h3>
+        <p>دین کو سمجھیں</p>
+      </a>
+
+      <a href="#calendar" class="feature-card">
+        <div class="feature-icon">
+          <i class="fa-solid fa-calendar-days"></i>
+        </div>
+        <h3>اسلامی کیلنڈر</h3>
+        <p>اہم اسلامی ایام</p>
+      </a>
+
+      <a href="#quiz" class="feature-card">
+        <div class="feature-icon">
+          <i class="fa-solid fa-brain"></i>
+        </div>
+        <h3>اسلامی کوئز</h3>
+        <p>اپنا علم آزمائیں</p>
+      </a>
+
+      <a href="#journey" class="feature-card">
+        <div class="feature-icon">
+          <i class="fa-solid fa-heart"></i>
+        </div>
+        <h3>اصلاحِ نفس</h3>
+        <p>اپنی شخصیت سنواریں</p>
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- DAILY MESSAGE -->
+  <section class="section" id="daily-message">
+
+    <div class="section-heading">
+      <h2>آج کی نصیحت</h2>
+      <i class="fa-solid fa-sun text-gold"></i>
+    </div>
+
+    <div class="daily-card">
+
+      <div class="feature-icon">
+        <i class="fa-solid fa-heart"></i>
+      </div>
+
+      <h3>اپنے اخلاق کو خوبصورت بنائیں</h3>
+
+      <p>
+        انسان کی خوبصورتی صرف اس کے چہرے میں نہیں،
+        بلکہ اس کے کردار، رویے اور دوسروں کے ساتھ
+        حسنِ سلوک میں بھی ہوتی ہے۔
+      </p>
+
+      <p class="text-muted">
+        <small>روزانہ اپنی اصلاح کی ایک نئی کوشش</small>
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- DAILY CHALLENGE -->
+  <section class="section" id="challenge">
+
+    <div class="section-heading">
+      <h2>آج کا نیک عمل</h2>
+      <i class="fa-solid fa-star text-gold"></i>
+    </div>
+
+    <div class="card">
+
+      <h3 class="text-primary">کسی کی مدد کریں</h3>
+
+      <p>
+        آج کسی ایک ضرورت مند یا پریشان شخص کی
+        اپنی استطاعت کے مطابق مدد کریں۔
+      </p>
+
+      <button class="btn btn-primary" id="challenge-btn"
+        onclick="completeChallenge()">
+        <i class="fa-solid fa-check"></i>
+        میں نے یہ عمل مکمل کیا
+      </button>
+
+      <p id="challenge-status" class="text-muted mt-1"
+        aria-live="polite"></p>
+
+    </div>
+
+  </section>
+
+
+  <!-- EXTRA SECTIONS -->
+  <section class="section" id="explore">
+
+    <div class="section-heading">
+      <h2>مزید دریافت کریں</h2>
+    </div>
+
+    <div class="feature-grid">
+
+      <a href="#prayer" class="feature-card">
+        <div class="feature-icon">
+          <i class="fa-solid fa-compass"></i>
+        </div>
+        <h3>قبلہ</h3>
+        <p>قبلے کی سمت</p>
+      </a>
+
+      <a href="#knowledge" class="feature-card">
+        <div class="feature-icon">
+          <i class="fa-solid fa-book"></i>
+        </div>
+        <h3>اسلامی تاریخ</h3>
+        <p>ماضی کے واقعات</p>
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- PLACEHOLDER SECTIONS -->
+  <section class="section" id="quran">
+    <div class="card">
+      <h2>قرآن مجید</h2>
+      <p>قرآن مجید کا مستند متن اور ترجمہ جلد شامل کیا جائے گا۔</p>
+    </div>
+  </section>
+
+  <section class="section" id="hadith">
+    <div class="card">
+      <h2>احادیث مبارکہ</h2>
+      <p>مستند احادیث اور ان کے حوالہ جات جلد شامل ہوں گے۔</p>
+    </div>
+  </section>
+
+  <section class="section" id="duas">
+    <div class="card">
+      <h2>دعائیں</h2>
+      <p>مسنون دعاؤں کا مجموعہ جلد دستیاب ہوگا۔</p>
+    </div>
+  </section>
+
+  <section class="section" id="azkar">
+    <div class="card">
+      <h2>اذکار و تسبیح</h2>
+      <p>روزانہ کے اذکار اور ڈیجیٹل تسبیح جلد شامل ہوں گے۔</p>
+    </div>
+  </section>
+
+  <section class="section" id="knowledge">
+    <div class="card">
+      <h2>اسلامی معلومات</h2>
+      <p>مستند اسلامی تعلیمات اور معلومات۔</p>
+    </div>
+  </section>
+
+  <section class="section" id="calendar">
+    <div class="card">
+      <h2>اسلامی کیلنڈر</h2>
+      <p>ہجری کیلنڈر اور اہم اسلامی ایام۔</p>
+    </div>
+  </section>
+
+  <section class="section" id="quiz">
+    <div class="card">
+      <h2>اسلامی کوئز</h2>
+      <p>علمی سوالات اور جوابات جلد شامل ہوں گے۔</p>
+    </div>
+  </section>
+
+  <section class="section" id="journey">
+    <div class="card">
+      <h2>میرا اسلامی سفر</h2>
+      <p>اپنی روزانہ کی اچھی عادات کا ریکارڈ رکھیں۔</p>
+    </div>
+  </section>
+
+  <section class="section" id="profile">
+    <div class="card">
+      <h2>میرا پروفائل</h2>
+      <p>آپ کی ذاتی سیٹنگز اور ترجیحات۔</p>
+    </div>
+  </section>
+
+
+  <!-- BOTTOM NAVIGATION -->
+  <nav class="bottom-nav" aria-label="Main navigation">
+
+    <a href="#home" class="nav-item active">
+      <i class="fa-solid fa-house nav-icon"></i>
+      <span>ہوم</span>
+    </a>
+
+    <a href="#library" class="nav-item">
+      <i class="fa-solid fa-book-open nav-icon"></i>
+      <span>لائبریری</span>
+    </a>
+
+    <a href="#explore" class="nav-item">
+      <i class="fa-solid fa-compass nav-icon"></i>
+      <span>دریافت</span>
+    </a>
+
+    <a href="#journey" class="nav-item">
+      <i class="fa-solid fa-heart nav-icon"></i>
+      <span>میرا سفر</span>
+    </a>
+
+    <a href="#profile" class="nav-item">
+      <i class="fa-solid fa-user nav-icon"></i>
+      <span>پروفائل</span>
+    </a>
+
+  </nav>
+
+</div>
+
+
+<!-- BASIC PAGE FUNCTIONS -->
+<script>
+
+  // Display dates
+  function updateDates() {
+    const now = new Date();
+
+    const gregorian = new Intl.DateTimeFormat(
+      'ur-PK',
+      {
+        day: 'numeric',
+        month: 'long',
+        year: 'numeric'
+      }
+    ).format(now);
+
+    const hijri = new Intl.DateTimeFormat(
+      'ur-PK-u-ca-islamic',
+      {
+        day: 'numeric',
+        month: 'long',
+        year: 'numeric'
+      }
+    ).format(now);
+
+    document.getElementById('gregorian-date').textContent =
+      gregorian;
+
+    document.getElementById('hijri-date').textContent =
+      hijri;
+  }
+
+  // Daily challenge
+  function completeChallenge() {
+    const button = document.getElementById('challenge-btn');
+    const status = document.getElementById('challenge-status');
+
+    status.textContent = 'ماشاءاللہ! آج کا عمل مکمل کرنے کا عزم محفوظ ہوگیا۔';
+
+    button.innerHTML =
+      '<i class="fa-solid fa-check"></i> مکمل ہوگیا';
+
+    button.disabled = true;
+  }
+
+  // Start app
+  updateDates();
+
+  // Bottom navigation active state
+  document.querySelectorAll('.nav-item').forEach(item => {
+    item.addEventListener('click', function() {
+      document.querySelectorAll('.nav-item').forEach(nav => {
+        nav.classList.remove('active');
+      });
+
+      this.classList.add('active');
+    });
+  });
+
+</script>
+
+</body>
+</html>
