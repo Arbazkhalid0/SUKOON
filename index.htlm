@@ -1,16 +1,24 @@
-
 <!DOCTYPE html>
 <html lang="ur" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Theme Color for Mobile Browser -->
   <meta name="theme-color" content="#103c32">
+  <meta name="description" content="SUKOON - ایک خوبصورت اسلامی لائف اسٹائل اور روحانی رہنمائی کی ایپ">
+
+  <!-- PWA (App) Settings -->
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-192x192.png">
 
   <title>SUKOON | اسلامی طرزِ زندگی</title>
 
-  <meta name="description" content="SUKOON - ایک خوبصورت اسلامی لائف اسٹائل اور روحانی رہنمائی کی ایپ">
-
-  <link rel="stylesheet" href="css/style.css">
+  <!-- Main CSS File -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Font Awesome for Icons (Optional but good for UI) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
@@ -23,7 +31,7 @@
     </a>
 
     <button class="profile-btn" aria-label="پروفائل">
-      ♙
+      <i class="fa-regular fa-user"></i>
     </button>
   </header>
 
@@ -58,49 +66,49 @@
       <div class="features-grid">
 
         <a href="pages/prayer.html" class="feature-card">
-          <span class="feature-icon">☪</span>
+          <span class="feature-icon"><i class="fa-solid fa-mosque"></i></span>
           <h3>نماز</h3>
           <p>نماز اور عبادات</p>
         </a>
 
         <a href="pages/quran.html" class="feature-card">
-          <span class="feature-icon">۞</span>
+          <span class="feature-icon"><i class="fa-solid fa-book-open"></i></span>
           <h3>قرآن پاک</h3>
           <p>تلاوت اور مطالعہ</p>
         </a>
 
         <a href="pages/azkar.html" class="feature-card">
-          <span class="feature-icon">❀</span>
+          <span class="feature-icon"><i class="fa-solid fa-hands-praying"></i></span>
           <h3>اذکار</h3>
           <p>صبح و شام کے اذکار</p>
         </a>
 
         <a href="pages/duas.html" class="feature-card">
-          <span class="feature-icon">🤲</span>
+          <span class="feature-icon"><i class="fa-solid fa-hands"></i></span>
           <h3>دعائیں</h3>
           <p>روزمرہ کی مسنون دعائیں</p>
         </a>
 
         <a href="pages/islamic-calendar.html" class="feature-card">
-          <span class="feature-icon">☾</span>
+          <span class="feature-icon"><i class="fa-regular fa-calendar"></i></span>
           <h3>اسلامی کیلنڈر</h3>
           <p>ہجری تاریخ اور ایام</p>
         </a>
 
         <a href="pages/seerah.html" class="feature-card">
-          <span class="feature-icon">♡</span>
+          <span class="feature-icon"><i class="fa-solid fa-heart"></i></span>
           <h3>سیرت النبی ﷺ</h3>
           <p>حیاتِ رسول ﷺ</p>
         </a>
 
         <a href="pages/islamic-history.html" class="feature-card">
-          <span class="feature-icon">⌛</span>
+          <span class="feature-icon"><i class="fa-solid fa-hourglass-half"></i></span>
           <h3>اسلامی تاریخ</h3>
           <p>تاریخی واقعات</p>
         </a>
 
         <a href="pages/quiz.html" class="feature-card">
-          <span class="feature-icon">✧</span>
+          <span class="feature-icon"><i class="fa-solid fa-lightbulb"></i></span>
           <h3>اسلامی کوئز</h3>
           <p>اپنا علم آزمائیں</p>
         </a>
@@ -110,7 +118,7 @@
 
     <!-- Daily Challenge -->
     <section class="challenge-card">
-      <span>روزانہ کا روحانی چیلنج</span>
+      <span class="section-tag">روزانہ کا روحانی چیلنج</span>
       <h2>آج کسی ایک شخص کے لیے دعا کریں۔</h2>
       <p>چھوٹی نیکیاں بھی بڑی اہمیت رکھتی ہیں۔</p>
       <button type="button" class="challenge-btn">
@@ -123,25 +131,27 @@
   <!-- Bottom Navigation -->
   <nav class="bottom-nav">
     <a href="#" class="nav-item active">
-      <span>⌂</span>
+      <span><i class="fa-solid fa-house"></i></span>
       <small>ہوم</small>
     </a>
 
     <a href="#features" class="nav-item">
-      <span>☪</span>
+      <span><i class="fa-solid fa-mosque"></i></span>
       <small>عبادات</small>
     </a>
 
     <a href="pages/duas.html" class="nav-item">
-      <span>🤲</span>
+      <span><i class="fa-solid fa-hands"></i></span>
       <small>دعائیں</small>
     </a>
 
     <a href="pages/settings.html" class="nav-item">
-      <span>⚙</span>
+      <span><i class="fa-solid fa-gear"></i></span>
       <small>سیٹنگز</small>
     </a>
   </nav>
 
+  <!-- App JavaScript -->
+  <script src="app.js"></script>
 </body>
 </html>
